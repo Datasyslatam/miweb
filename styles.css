@@ -1,0 +1,115 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    padding: 1px 15px 1px 15px;
+    display: flex;
+    background-color: rgb(190, 178, 178);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+/*.parrafo2{
+    font-family: 'Roboto', sans-serif;
+}*/
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a i {
+    padding: 25px;
+    font-size: 20px;
+}
+header nav ul {     /* Organizacion elementos del menu*/
+    display: flex;
+    gap: 1.1em;
+}
+
+header nav ul li a {    /* Enlaces del menu */
+    color: black;
+    text-decoration: brown;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    padding: 5px 5px 0px 5px;
+}
+
+.seccion-1{
+    background-color: rgb(235, 225, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    font-size: 15px;
+    text-align: justify;
+}
+.acerca-imagen {
+    display: flex;
+    justify-content: center;
+    margin: 0px 5px 0px 25px;
+    width: 200px;
+    height: 180px;
+}
+.seccion-2 img{
+    background-color: rgb(235, 225, 225);
+    width: 100%;
+}
+
+footer{
+    padding: 2px 15px 2px 25px;
+    display: flex;
+    background-color: rgb(190, 178, 178);
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: space-between;*/
+}
+
+footer nav ul li {    /* Enlaces del menu */
+    color: black;
+    text-decoration: brown;
+    font-weight: 300;
+    font-family: 'Roboto', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.container-target {
+    padding: 5px 10px 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.target{
+    /*border: 3px dotted teal;*/
+    border-radius: 4px;
+    padding: 5px;
+    width: 350px;
+    max-width: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img-target{
+    display: flex;
+    justify-content: center;
+    margin: 0px 5px 0px 5px;
+    width: 300px;
+    height: 250px;
+}
+
+.text-target{
+    display: flex;
+    /*flex-wrap: wrap;
+    background-color: rgb(241, 218, 189); */
+    text-align: justify;
+}
