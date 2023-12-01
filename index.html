@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4635443d79.js" crossorigin="anonymous"></script>
     <title>Mi primera Web</title>
+
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="forms.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -90,6 +94,35 @@
             </section>
         </main>
     </div>
+    
+    <!-- Seccion del Formulario de Contacto -->>
+
+    <section class="form-header">
+        <h1>Contacto</h1>
+        <p><em>¡Esperamos tu consulta!</em></p>
+  
+        <form action="" method="get" class="formulario" id="form">
+          <div class="form-row">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" type="text" />
+          </div>
+  
+          <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="pepe@gmail.com" required/>
+            </div>
+  
+            <div class="form-row">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje"></textarea>
+            </div>
+  
+            <div class="form-row">
+              <button>Enviar</button>
+            </div>
+            <p class="alertas" id="alertas"></p>
+        </form>
+    </section>
 
     <footer class="contacto">
         <div>
@@ -103,5 +136,6 @@
             </ul>
         </nav>
     </footer>
+    <script src="forms.js"></script>
 </body>
 </html>
