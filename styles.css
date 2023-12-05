@@ -3,7 +3,7 @@ body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
-/*
+
 header{
     padding: 30px 15px 1px 15px;
     display: flex;
@@ -11,7 +11,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-}*/
+}
 
 /*.parrafo2{
     font-family: 'Roboto', sans-serif;
@@ -24,19 +24,17 @@ header{
 a {
     text-decoration: none;
 }
-
+*/
 header a i {
     padding: 25px;
     font-size: 20px;
-}*/
+}
 
-/*
 header nav ul {    
     display: flex;
     gap: 1.1em;
 }
-*/
-/*
+
 header nav ul li a {   
     color: black;
     text-decoration: brown;
@@ -44,9 +42,9 @@ header nav ul li a {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
 }
-*/
+
 .container {
-    padding: 25px 5px 0px 5px;
+    padding: 35px 5px 0px 5px;
 }
 
 .seccion-1{
